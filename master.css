@@ -148,3 +148,17 @@ header section.jumbo {
 section#title-center, footer {
   background-color: #B9C3CF;
 }
+
+#title-center .column {
+  padding: 30px 0;
+  text-align: center;
+}
+
+#title-center .column h2 {
+  margin-bottom: 10px;
+}
+
+#title-center .column span {
+  color: #5A5856;
+  font-weight: bold;
+}
