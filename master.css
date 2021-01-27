@@ -75,6 +75,11 @@ body {
   background-color: #7BBC00;
 }
 
+.text-34 {
+  font-size: 34px;
+  font-weight: bold;
+}
+
 /* HEADER */
 header {
   background-color: #10375F;
@@ -156,7 +161,6 @@ section#title-center, footer {
 
 #title-center .column span {
   color: #8C8783;
-  font-weight: bold;
 }
 
 /* MAIN - SECTION THREE-COLUMNS */
@@ -202,11 +206,10 @@ section#title-center, footer {
   padding: 0 60px;
 }
 
-#two-columns .mountain-text {
-  font-size: 34px;
-  font-weight: bold;
-}
-
 #two-columns p.fluentify-test {
   margin-bottom: 20px;
+}
+
+footer .column {
+  line-height: 100px;
 }
