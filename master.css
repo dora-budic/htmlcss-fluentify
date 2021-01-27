@@ -159,6 +159,40 @@ section#title-center, footer {
 }
 
 #title-center .column span {
-  color: #5A5856;
+  color: #8C8783;
   font-weight: bold;
+}
+
+/* MAIN - SECTION THREE-COLUMNS */
+#three-columns {
+  margin: 30px 0;
+}
+
+#three-columns .column {
+  text-align: center;
+}
+#three-columns .column img#profile {
+  height: 150px;
+}
+
+#three-columns .column span {
+  display: block;
+  color: #7BBC00;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+#three-columns .column hr {
+  width: 20%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#three-columns .column p {
+  margin-top: 20px;
+  color: #8C8783;
+  font-weight: bold;
+  font-size: 17px;
 }
