@@ -229,7 +229,12 @@ footer .content span{
   color: #888888;
   font-size: 18px;
   margin: 0 20px;
-  cursor: ' \25BC';
+  appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='grey' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 105%;
+  background-position-y: -2px;
 }
 
 footer a.btn-green.big {
@@ -244,4 +249,5 @@ footer a#help {
   right: 260px;
   line-height: 10px;
   z-index: 1;
+  border-radius: 5px 5px 0 0;
 }
